@@ -57,6 +57,10 @@ function draw() {
     confirmButton.mousePressed(()=>{
         color = colorInput.value();
     })
+
+    if (xPos === 0 && yPos === 0) {
+        background("white")
+    }
 }
 
 function mouseDragged() {
